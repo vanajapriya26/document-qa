@@ -7,4 +7,5 @@ googletrans==4.0.0-rc1
 langdetect
 pyttsx3
 pdf2docx
+langchain_community
 
