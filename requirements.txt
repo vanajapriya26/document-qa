@@ -8,4 +8,4 @@ langdetect
 pyttsx3
 pdf2docx
 langchain_community
-
+FAISS
