@@ -17,7 +17,10 @@ import tempfile
 import os
 
 # Set up Streamlit page configuration
-st.set_page_config(page_title="PDFOasis", page_icon="📚", layout="wide")
+st.set_page_config(
+            page_title="PDFOasis", 
+            page_icon="📚", 
+            layout="wide")
 
 # Hide Streamlit's default hamburger menu and footer
 hide_streamlit_style = """
