@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 
 # Show title and description.
-st.title("📄 Document question answering")import streamlit as st
+st.title("📄 Document question answering")
 import streamlit.components.v1 as components
 from PyPDF2 import PdfReader
 from langchain import LLMChain, PromptTemplate
