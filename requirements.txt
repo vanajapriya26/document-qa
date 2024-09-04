@@ -1,2 +1,10 @@
 streamlit
 openai
+PyPDF2
+langchain
+langchain_google_genai
+googletrans==4.0.0-rc1
+langdetect
+pyttsx3
+pdf2docx
+
