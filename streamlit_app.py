@@ -38,7 +38,7 @@ def initialize_components():
         max_tokens=None,
         timeout=None,
         max_retries=2,
-        google_api_key="AIzaSyBMSi3Bx9WqfQPHACdfdCCcGsSHBRvUieI"
+        google_api_key=st.secrets["google_api_key"]
     )
 
     # Initialize Translator
