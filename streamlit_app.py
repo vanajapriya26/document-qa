@@ -1,5 +1,5 @@
 import streamlit as st
-from openai import OpenAI
+import OpenAI
 
 # Show title and description.
 st.title("📄 Document question answering")
