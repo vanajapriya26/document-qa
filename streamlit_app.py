@@ -94,7 +94,7 @@ def process_pdf(file):
     # Generate embeddings
     embeddings = GoogleGenerativeAIEmbeddings(
         model="models/embedding-001",
-        google_api_key="AIzaSyBMSi3Bx9WqfQPHACdfdCCcGsSHBRvUieI"
+        google_api_key=st.secrets["google_api_key"]
     )
 
     # Create vector store for similarity search
